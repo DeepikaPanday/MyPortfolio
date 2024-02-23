@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <title>Deepika</title>
+</head>
+<body>
+
+    <header id="myHeader">
+        <div class="container main-container">
+            <a href="#" class="logo">Portfolio</a>
+            <button class="nav_btn_open" id="menutroggle" onclick="nav_open();">
+                <i class="ph ph-list"></i>
+              </button>
+       
+
+        <nav class="navbar" id="responsiveNav">
+            <ul class="myNav" id="myLinks">
+                <li><a class="btn" href="#home" id="click">Home</a></li>
+                <li><a class="btn" href="#aboutUs" id="click">About Me</a></li>
+                <li><a class="btn" href="#skills" id="click">Skills</a></li>
+                <li><a class="btn" href="#projects" id="click">Projects</a></li>
+                <li><a class="btn" href="#contact" id="click">Contact</a></li>
+            </ul>
+
+            <button class="nav_btn_close" onclick="nav_close();">
+                <i class="ph-fill ph-x-circle"></i>
+              </button>
+        </nav>
+    </div>
+    </header>
+
+
+
+   <section class="home-top" id="home">
+    <div class="container main-container">
+        <div class="home-intro">
+            <p>Welcome!</p>
+            <h1>I Am Deepika</h1>
+            <h3>A Web Designer & Developer</h3>
+            <button class="cv-btn"><a href="img/resume-d.pdf" target="_blank">Download CV</a></button>
+        </div>
+    </div>
+   </section>
+
+   <section class="about-section reveal" id="aboutUs">
+    <div class="main-container">
+        <div class="ab-left">
+            <img src="img/profile.jpg" alt="profile">
+        </div>
+        <div class="ab-right">
+            <h2>About Me</h2>
+            <p>I am a Web Designer, and I'm very passionate and dedicated to my work. With 4 years experience as a Web designer and developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
+
+            <ul>
+                <li><span>50+</span> Project complete in Websites Design</li>
+                <li><span>2000+</span> Project complete in Graphic Design</li>
+            </ul>
+
+            <a href="img/resume-d.pdf" class="cv-btn" target="_blank">Download CV</a>
+        </div>
+    </div>
+   </section>
+
+
+   <section class="skill-section reveal" id="skills">
+    <div class="main-container">
+        <h2>My Skills</h2>
+
+        <ul>
+            <li><img src="img/photoshop.png" alt="Photoshop">Adobe Photoshop</li>
+            <li><img src="img/illustrator.png" alt="Illustrator">Adobe Illustrator</li>
+            <li><img src="img/figma.png" alt="Figma">Figma</li>
+            <li><img src="img/html-5.png" alt="Html5">Html5</li>
+            <li><img src="img/css-3.png" alt="Css3">Css3</li>
+            <li><img src="img/java-script.png" alt="JavaScript">JavaScript</li>
+            <li><img src="img/wordpress.png" alt="Worpress">Worpress</li>
+            <li><img src="img/bootstrap.png" alt="Bootstrap">Bootstrap 4</li>
+            <li><img src="img/react-next.png" alt="Bootstrap">React With Next Js (3 Month Exp.)</li>
+        </ul>
+    </div>
+   </section>
+
+
+   <section class="projects-sec reveal" id="projects">
+    <h2>Our Latest Projects</h2>
+    <div class="main-container">
+
+        <div class="projects reveal">
+            <div class="pr-img">
+                <img src="img/wordpress.jpg" alt="Graphic design">
+                <div class="link-overly"><a href="https://coachtribe.co.za/" target="_blank">South Africa Wordpress Website</a></div>
+            </div>
+        </div>
+
+        <div class="projects reveal">
+            <div class="pr-img">
+                <img src="img/dynamic.jpg" alt="Graphic design">
+                <div class="link-overly"><a href="https://www.muraliwalemissionfoundation.org/" target="_blank">Dynamic Website</a></div>
+            </div>
+        </div>
+
+        <div class="projects reveal">
+            <div class="pr-img">
+                <img src="img/bootstrap-website.jpg" alt="Graphic design">
+                <div class="link-overly"><a href="https://www.abmcapitalsolutions.com/" target="_blank">Website Redesign Using Bootstrap</a></div>
+            </div>
+        </div>
+
+        <div class="projects reveal">
+            <div class="pr-img">
+                <img src="img/static.jpg" alt="Graphic design">
+                <div class="link-overly"><a href="https://www.satyenclasses.com/" target="_blank">Static Website</a></div>
+            </div>
+        </div>
+
+        <div class="projects reveal">
+            <div class="pr-img">
+                <img src="img/one-page.jpg" alt="Graphic design">
+                <div class="link-overly"><a href="https://www.jioairfiber.in/" target="_blank">One Page Website</a></div>
+            </div>
+        </div>
+
+        <div class="projects reveal">
+            <div class="pr-img">
+                <img src="img/graphic-d.jpg" alt="Graphic design">
+                <div class="link-overly"><a href="https://www.behance.net/deepikapanday5" target="_blank">Graphic Design Portfolio</a></div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+
+
+   <section class="contactSection" id="contact">
+    <div class="main-container reveal">
+        <h2>Contact Me</h2>
+            <div class="ct-right">
+                <form method="post" action="mailto:pandaydeepika5@gmail.com">
+                    <div class="contact-get-touch-box">
+                       <input type="text" name="contact_name" id="contact_name" placeholder="Enter Name" required>
+                        <span id="contact_name_error"></span>
+                    </div>
+        
+                    <div class="contact-get-touch-box">
+                        <input type="text" name="contact_email" id="contact_email" placeholder="Enter Email ID" required>
+                        <span id="contact_email_error"></span>
+                    </div>
+        
+                    <div class="contact-get-touch-box">
+                        <input type="text" class="numeric" name="contact_mobile" id="contact_mobile" placeholder="Enter Mobile Number" required>
+                        <span id="contact_mobile_error"></span>
+                    </div>
+        
+                    <div class="contact-get-touch-box">
+                        <textarea name="contact_requirement" id="contact_requirement" placeholder="Enter your Requirement"></textarea>
+                        <span id="contact_requirement_error"></span>
+                    </div>
+        
+                    <button class="contact-us-page-submit" value="send">Submit</button>
+          
+                </form>
+            </div>
+    </div>
+   </section>
+
+<section class="contactnumber ">
+    <div class="main-container">
+        <div class="ct-left">
+            <ul>
+                <li><i class="ph-fill ph-phone"></i><span>Phone</span> <a href="tel:+919990592508" target="_blank">+919990592508</a></li>
+                <li><i class="ph-fill ph-envelope"></i><span>Email</span><a href="mailto:pandaydeepika5@gmail.com" target="_blank">pandaydeepika5@gmail.com</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="main-container">
+        <ul>
+            <li><a href="https://www.linkedin.com/in/deepika-pandey-a87277176/" target="_blank"><img src="img/linkedin.png" alt="Linked IN"></a></li>
+            <li><a href="https://www.behance.net/deepikapanday5" target="_blank"><img src="img/behance.png" alt="Behance"></a></li>
+        </ul>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright ©2024 All rights reserved</p>
+    </div>
+</footer>
+
+
+<a href="https://api.whatsapp.com/send/?phone=%2B919990592508&text=I+need+your+advice.Please+contact&type=phone_number&app_absent=0" class="whatsapp" target="_blank"><img src="img/whatsapp.png" alt="whatsapp"></a>
+   
+
+    
+    
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>        
+    <script src="js/common.js"></script>
+
+</body>
+</html>
