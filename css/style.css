@@ -236,9 +236,7 @@ nav ul li a {
 .about-section .main-container {
     display: grid;
     display: -ms-grid;
-    grid-template-columns: 1fr 1.2fr;
-    -ms-grid-column: (2)[1fr 1.2fr];
-    grid-gap: 6rem;
+    grid-template-columns: 1fr;
     align-items: center;
     -webskit-align-items: center;
 }
@@ -669,6 +667,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
