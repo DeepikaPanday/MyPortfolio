@@ -341,16 +341,16 @@ padding: 7rem 0;
 .projects-sec .main-container {
     display: grid;
     display: -ms-grid;
-    grid-template-columns: repeat(2, 1fr);
-    -ms-grid-column: (2)[1fr];
-    grid-gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-column: (3)[1fr];
+    grid-gap: 2rem;
     padding-top: 3rem;
 }
 
 .projects {
     background: #fff;
     border-radius: 1rem;
-    height: 28rem;
+    height: 35rem;
     border: 1px solid #ccc;
 }
 
@@ -667,6 +667,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
