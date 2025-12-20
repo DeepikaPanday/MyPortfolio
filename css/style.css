@@ -283,7 +283,7 @@ nav ul li a {
 }
 
 .about-section .cv-btn {
-    margin: 3rem 0 0;
+    margin: 3rem auto;
 }
 
 .about-section .ab-left img {
@@ -669,6 +669,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
