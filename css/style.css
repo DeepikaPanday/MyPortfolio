@@ -220,8 +220,6 @@ nav ul li a {
     background-color: var(--themeColor);
     color: #fff;
     font-weight: 600;
-     /* box-shadow: -3px 10px 17px 1px rgb(239 51 0 / 25%); */
-    -webkit-box-shadow: -3px 10px 17px 1px rgb(239 51 0 / 25%);
     border: 1px solid var(--themeColor);
     transition: .25s all;
     -webkit-transition: .25s all;
@@ -671,6 +669,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
