@@ -5,7 +5,7 @@
 :root {
     --themeColor: #e7bd8d;
     --peraColor: #2e2c2d;
-    --lightgreyColor: #f7f7f7;
+    --lightgreyColor: #0a090f;
   }
 
 html {
@@ -669,6 +669,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
