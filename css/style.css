@@ -243,8 +243,8 @@ nav ul li a {
     -webskit-align-items: center;
 }
 
-.about-section h2 {
-    text-align: left;
+.about-section h2, .about-section p {
+    text-align: center;
 }
 
 .about-section ul {
@@ -669,6 +669,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
