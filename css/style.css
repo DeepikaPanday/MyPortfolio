@@ -204,7 +204,7 @@ nav ul li a {
 }
 
 .home-intro .cv-btn a {
-    color: #fff;
+    color: #000;
 }
 
 .home-intro .cv-btn:hover a {
@@ -667,6 +667,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
