@@ -55,7 +55,7 @@ body {
   p, li {
     font-size: 1.6rem;
     line-height: 2.8rem;
-    color: #666;
+    color: #fff;
     font-weight: 400;
   }
 
@@ -64,7 +64,7 @@ body {
     text-align: center;
     font-weight: 600;
     padding-bottom: 2rem;
-    color: #1a1a1a;
+    color: #fff;
   }
 
   a {text-decoration: none;}
@@ -290,8 +290,7 @@ nav ul li a {
 }
 
 .about-section .ab-left img {
-    border-radius: 50%;
-    border: 1px dashed #ef3300;
+    border-radius: 10px;
 }
 
 
@@ -673,5 +672,6 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
