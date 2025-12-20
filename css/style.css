@@ -167,7 +167,7 @@ nav ul li a {
 .home-top::before {
     position: absolute;
     content: "";
-    background: url(../img/home-top-bg.jpg) no-repeat;
+    background: url(../img/resume-bg.jpg) no-repeat;
     width: 100%;
     height: 100%;
     opacity: .5;
@@ -667,6 +667,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
