@@ -187,6 +187,7 @@ nav ul li a {
 }
 
 .home-top .home-intro h4 {color: var(--themeColor); font-weight: 600; font-size: 2rem;}
+.home-top .home-intro p {padding-top:2rem;}
 
 .home-top .home-intro h1 {
     font-size: 7rem;
@@ -667,6 +668,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
