@@ -186,7 +186,7 @@ nav ul li a {
     width: 100%;
 }
 
-.home-top .home-intro p {color: var(--themeColor); font-weight: 600;}
+.home-top .home-intro h4 {color: var(--themeColor); font-weight: 600;}
 
 .home-top .home-intro h1 {
     font-size: 7rem;
@@ -667,6 +667,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
