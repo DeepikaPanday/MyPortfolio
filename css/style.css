@@ -108,12 +108,12 @@ body {
 
 
   header {
-    background: #0A090F;
+    background: #0a090f00;
     padding: .5rem 0;
     z-index: 9999;
     position: relative;
     height: 6rem;
-    border-bottom: 1px solid #444444;
+    border-bottom: 1px solid #1a1a1a;
   }
 
 header .main-container {
@@ -670,6 +670,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
