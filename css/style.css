@@ -3,7 +3,7 @@
 *{margin: 0; padding: 0; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}
 
 :root {
-    --themeColor: #1781B2;
+    --themeColor: #0A9DA5;
     --peraColor: #2e2c2d;
     --lightgreyColor: #0a090f;
   }
@@ -691,6 +691,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
