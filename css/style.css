@@ -381,8 +381,8 @@ padding: 5rem 0;
     line-height: 2.4;
 }
 
-.project-name .cv-btn {
-    margin: 1rem 0 !important;
+.projects .project-name .cv-btn {
+    margin: 1rem 0;
     padding: 1rem 3rem;
 }
 
@@ -691,6 +691,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
