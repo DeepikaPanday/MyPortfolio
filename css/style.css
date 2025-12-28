@@ -377,12 +377,13 @@ padding: 5rem 0;
 }
 
 .project-name p {
-    color: #333;
+    color: #9f9f9f;
     line-height: 2.4rem;
+    font-size: 1.5rem;
 }
 
 .projects .project-name .cv-btn {
-    margin: 1rem 0;
+    margin: 2rem 0 0;
     padding: 1rem 3rem;
 }
 
@@ -691,6 +692,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
