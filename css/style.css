@@ -246,6 +246,8 @@ nav ul li a {
     text-align: center;
 }
 
+.about-section h3 {text-align: center;}
+
 .about-section ul {
     list-style: none;
     padding: 5rem 0 2rem;
@@ -668,6 +670,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
