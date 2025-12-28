@@ -352,8 +352,8 @@ padding: 5rem 0;
 
 .projects {
     border-radius: 1rem;
-    height: 40rem;
-    border: 1px solid #2c2c2c;
+    height: 45rem;
+    
 }
 
 .projects .pr-img {
@@ -362,7 +362,17 @@ padding: 5rem 0;
     height: 31rem;
     width: 100%;
     border-radius: 1rem;
+    border: 1px solid #2c2c2c;
 }
+.project-name {padding: 1rem 0;}
+.project-name h2 {
+    font-size: 3rem;
+    text-align: left;
+}
+
+.project-name h2 span {
+    float: right;
+    font-size: 1.4rem;}
 
 .projects .pr-img img {
     width: 100%;
@@ -669,6 +679,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
