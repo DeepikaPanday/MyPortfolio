@@ -158,8 +158,8 @@ nav ul li a {
 
 .home-top {
     background: #0a090f;
-    padding: 4rem 0 0;
-    height: 64rem;
+    padding: 0 0;
+    height: 60rem;
     position: relative;
     z-index: 1;
 }
@@ -670,6 +670,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
