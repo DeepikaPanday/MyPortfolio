@@ -352,15 +352,14 @@ padding: 5rem 0;
 
 .projects {
     background: #fff;
-    border-radius: 1rem;
-    height: 30rem;
+    height: 40rem;
     border: 1px solid #2c2c2c;
 }
 
 .projects .pr-img {
-    border-radius: .5rem;
+    border-radius: 1rem;
     position: relative;
-    height: 100%;
+    height: 31rem;
     width: 100%;
     border-radius: 1rem;
 }
@@ -670,6 +669,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
