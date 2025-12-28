@@ -63,7 +63,7 @@ body {
     font-size: 4rem;
     text-align: center;
     font-weight: 600;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     color: #fff;
   }
 
@@ -246,7 +246,7 @@ nav ul li a {
     text-align: center;
 }
 
-.about-section h3 {text-align: center;}
+ h3 {text-align: center; padding-bottom: 2rem; font-size: 1.6rem; font-weight: 400;} 
 
 .about-section ul {
     list-style: none;
@@ -670,6 +670,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
