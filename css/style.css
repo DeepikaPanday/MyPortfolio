@@ -378,7 +378,7 @@ padding: 5rem 0;
 
 .project-name p {
     color: #333;
-    line-height: 2.4;
+    line-height: 2.4rem;
 }
 
 .projects .project-name .cv-btn {
@@ -691,6 +691,7 @@ footer ul li img {
     .skill-section ul li {width: 47%;}
 
 }
+
 
 
 
